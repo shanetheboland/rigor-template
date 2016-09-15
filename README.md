@@ -1,3 +1,3 @@
 # Rigor Theme
 
-An html/css page template for Rigor
+An html/css page template for rigor
