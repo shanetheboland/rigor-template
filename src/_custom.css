@@ -51,6 +51,11 @@ img {
 	max-width: 650px;
 	margin: 0 auto;
 }
+@media only screen and (max-width: 550px) {
+	.rgr-section .rgr-container {
+		padding: 0;
+	}
+}
 @media only screen and (min-width: 800px) {
 	.rgr-unit-25 {
 		float: left;

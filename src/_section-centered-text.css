@@ -1,4 +1,7 @@
-/* centered text CTA section */
+/* centered text CTA section, only on desktop,left-align on mobile */
 @media only screen and (min-width: 800px) {
 	.rgr-section-centered-text { text-align: center; }
 }
+
+/* CTA section centered always */
+.rgr-section-centered-text-cta { text-align: center; }

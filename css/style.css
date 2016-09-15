@@ -65,6 +65,11 @@ img {
 	max-width: 650px;
 	margin: 0 auto;
 }
+@media only screen and (max-width: 550px) {
+	.rgr-section .rgr-container {
+		padding: 0;
+	}
+}
 @media only screen and (min-width: 800px) {
 	.rgr-unit-25 {
 		float: left;
@@ -111,10 +116,13 @@ img {
 		vertical-align: middle;
 	}
 }
-/* centered text CTA section */
+/* centered text CTA section, only on desktop,left-align on mobile */
 @media only screen and (min-width: 800px) {
 	.rgr-section-centered-text { text-align: center; }
 }
+
+/* CTA section centered always */
+.rgr-section-centered-text-cta { text-align: center; }
 /* text with form section */
 .rgr-section-text-with-form .rgr-form{
 	background-color: #ddd;
