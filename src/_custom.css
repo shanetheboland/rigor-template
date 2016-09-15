@@ -1,0 +1,86 @@
+/* Nicolas Gallaghers Clearfix solution
+   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cf:before, .cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.ostrich-sans {
+	font-family: 'Ostrich Sans', sans-serif;
+}
+.open-sans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.rgr-section { padding: 60px 0 40px; }
+
+.rgr-bg-white { background-color: #ffffff; }
+.rgr-bg-near-white { background-color: #efefef; }
+.rgr-bg-near-black { background-color: #333; }
+
+.rgr-align-center { text-align: center; }
+
+.rgr-unit-25,
+.rgr-unit-50,
+.rgr-unit-100 {
+	float: none;
+	width: 100%;
+	padding: 0 20px;
+}
+
+.rgr-section .rgr-container {
+	width: 100%;
+  padding: 0 20px;
+	max-width: 650px;
+	margin: 0 auto;
+}
+@media only screen and (min-width: 800px) {
+	.rgr-unit-25 {
+		float: left;
+		width: 25%;
+		padding: 0 20px;
+	}
+	.rgr-unit-50 {
+		float: left;
+		width: 50%;
+		padding: 0 20px;
+	}
+	.rgr-unit-50.rgr-dtc-ns {
+		float: none;
+	}
+	.rgr-section .rgr-container { 
+	  width: 100%;
+	  padding: 0 20px;
+	  max-width: 1030px;
+	}
+}
+
+.rgr-section h2 {
+	font: 47px/52px "Ostrich Sans",sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+.rgr-section p {
+	color: #333;
+	font-size: 18px;
+  line-height: 24px;
+  max-width: 35em;
+	margin: 0 auto;
+}
+
+
+@media only screen and (min-width: 800px) {
+	.rgr-dt-ns {
+		display: table;
+	}
+	.rgr-dtc-ns {
+		display: table-cell;
+	}
+	.rgr-v-mid-ns {
+		vertical-align: middle;
+	}
+}

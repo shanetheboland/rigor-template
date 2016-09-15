@@ -1,0 +1,16 @@
+.rgr-section-data-blocks {
+	text-align: center;
+}
+
+.rgr-section-data-blocks h3 {
+	font-weight: 700;
+	font-size: 64px;
+	margin-bottom: 0;
+	color: var(--yellow);
+	font-family: "Ostrich Sans",sans-serif;
+}
+
+.rgr-section-data-blocks .rgr-unit-25 { margin-bottom: 20px; }
+
+.rgr-section-data-blocks h2 { color: #efefef; }
+.rgr-section-data-blocks p { color: #fff; }

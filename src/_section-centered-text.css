@@ -1,0 +1,4 @@
+/* centered text CTA section */
+@media only screen and (min-width: 800px) {
+	.rgr-section-centered-text { text-align: center; }
+}

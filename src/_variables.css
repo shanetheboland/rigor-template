@@ -1,0 +1,17 @@
+:root {
+  /* Rigor brand colors */
+  --yellow: #FAD949;
+  --lightyellow: #FEE36D;
+  --darkyellow: #EBC320;
+
+  --blue: #0E68A4;
+  --lightblue: #3498DB;
+  --darkblue: #075282;
+
+  --gray: #555555;
+  --lightgray: #777777;
+  --darkgray: #333333;
+
+  --red: #C0392B;
+  --green: #2ECC71;
+}
