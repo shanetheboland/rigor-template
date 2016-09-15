@@ -14,6 +14,19 @@
 :root {
   /* Rigor brand colors */
 }
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('../fonts/ostrich-regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OstrichSans-Bold';
+	src: url('../fonts/OstrichSans-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+}
+
 /* Nicolas Gallaghers Clearfix solution
    Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .cf:before, .cf:after { content: " "; display: table; }
@@ -184,7 +197,7 @@ img {
 	font-size: 64px;
 	margin-bottom: 0;
 	color:#FAD949;
-	font-family: "Ostrich Sans",sans-serif;
+	font-family: 'OstrichSans-Bold', sans-serif;
 }
 
 .rgr-section-data-blocks .rgr-unit-25 { margin-bottom: 20px; }

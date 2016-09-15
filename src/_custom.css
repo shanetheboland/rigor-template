@@ -1,3 +1,16 @@
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('../fonts/ostrich-regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OstrichSans-Bold';
+	src: url('../fonts/OstrichSans-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+}
+
 /* Nicolas Gallaghers Clearfix solution
    Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .cf:before, .cf:after { content: " "; display: table; }
